@@ -1,0 +1,61 @@
+.logo {
+  margin-left: -97%;
+}
+body {
+  margin: 0ex;
+  text-align: center;
+  background-color: rgb(226, 219, 219);
+  font-family: "Roboto";
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.65;
+}
+h1 {
+  color: rgb(221, 97, 118);
+}
+p {
+  color: darkmagenta;
+}
+li {
+  display: inline;
+  margin: 30px;
+  color: palevioletred;
+}
+
+.wall {
+  position: relative;
+  list-style: none;
+  margin-right: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+a :hover {
+  color: black;
+}
+#header {
+  background: rgb(241, 170, 170);
+  height: 3.5em;
+  left: 0;
+  line-height: 3.25em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  top: 0ex;
+}
+#content {
+  margin-top: 100px;
+}
+#footer {
+  padding: 4rem 0 2rem 0;
+  background: rgb(241, 170, 170);
+  text-align: center;
+}
+#footer .copyright {
+  color: palevioletred;
+  font-size: 0.9rem;
+  margin: 0 0 2rem 0;
+  padding: 0;
+  text-align: center;
+}
